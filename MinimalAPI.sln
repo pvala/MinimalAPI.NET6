@@ -8,7 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D9AC481-9464-4CD5-8E62-0CA092527C63}"
 	ProjectSection(SolutionItems) = preProject
 		.filenesting.json = .filenesting.json
-		minimal-api-deployment.yaml = minimal-api-deployment.yaml
+		Deploy\minimal-api-deployment.yaml = Deploy\minimal-api-deployment.yaml
 	EndProjectSection
 EndProject
 Global
