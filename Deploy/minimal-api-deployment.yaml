@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: minimal
-          image: pedrovala/minimalapi:latest
+          image: pedrovala/minimalapi:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
