@@ -21,7 +21,7 @@ var summaries = new[]
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Hello World! " + app.Environment.EnvironmentName);
 
 app.MapGet("/weatherforecast", () =>
 {
